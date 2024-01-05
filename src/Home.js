@@ -11,19 +11,13 @@ const Home = () => {
           style={{ width: "300px", height: "285px" }}
         />
         <div className="personal-details">
-          <h2>
-            <marquee>Hey!!I am AKSKAY,akshu</marquee>
-          </h2>
+          <h2>Hey!!I am AKSKAY,akshu</h2>
 
           <h2>AGE:</h2>
-          <p>
-            <marquee>I am 30 years old</marquee>
-          </p>
+          <p>I am 30 years old</p>
           <h2>Personality:</h2>
           <p>
-            <blockquote>
-              <marquee>I programme and stuff from bangalore india</marquee>
-            </blockquote>
+            <blockquote>I programme and stuff from bangalore india</blockquote>
           </p>
         </div>
       </div>
