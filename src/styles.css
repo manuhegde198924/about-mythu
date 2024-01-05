@@ -1,0 +1,133 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #ffd700;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700; /* Change color on hover, you can choose your own color */
+}
+
+main {
+  padding: 20px;
+}
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Left Card Styling */
+.left-card {
+  width: 25%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(126, 3, 42);
+}
+
+.left-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 195px;
+  margin-bottom: 15px;
+  border: 5px solid black;
+}
+
+.personal-details h2 {
+  color: #333;
+  margin-top: 10px;
+}
+
+.personal-details p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Right Card Styling */
+.right-card {
+  width: 70%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(81, 9, 21);
+}
+
+.right-card h2 {
+  color: #333;
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.right-card h3 {
+  margin-top: 15px;
+}
+
+.right-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.sub-details {
+  margin-top: 15px;
+}
+@media only screen and (max-width: 480px) {
+  /* Styles for Samsung Galaxy or similar devices */
+  body {
+    font-size: 14px;
+  }
+
+  .home-container {
+    margin: 10px;
+  }
+
+  .left-card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .left-card img {
+    border-radius: 50%;
+  }
+
+  .right-card {
+    width: 100%;
+    margin: 0;
+  }
+}
